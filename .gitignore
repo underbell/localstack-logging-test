@@ -1,0 +1,7 @@
+.idea
+*.iml
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+localstack/nginx/log
+localstack/localstack/*
