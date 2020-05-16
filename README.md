@@ -24,7 +24,7 @@ services:
       - "4566-4599:4566-4599"
       - "${PORT_WEB_UI-4566}:${PORT_WEB_UI-8080}"
     environment:
-      -- SERVICES=${SERVICES-lambda,kinesis,s3 }
+      - SERVICES=${SERVICES-lambda,kinesis,s3 }
       - DEBUG=${DEBUG-1 }
       - DATA_DIR=${DATA_DIR- }
       - PORT_WEB_UI=${PORT_WEB_UI- }
